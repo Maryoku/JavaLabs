@@ -1,0 +1,11 @@
+2017-12-12 02:25:37 DEBUG Main:20 - divide method invoked; 2 / 0
+2017-12-12 02:25:37 WARN  Main:22 - x = 0; exception may occur
+2017-12-12 02:25:37 ERROR Main:14 - / by zero
+java.lang.ArithmeticException: / by zero
+	at Log4j.Main.divide(Main.java:24)
+	at Log4j.Main.main(Main.java:12)
+2017-12-12 02:25:37 DEBUG Main:20 - divide method invoked; 2 / 1
+2017-12-12 02:25:37 INFO  Main:12 - result: 2
+2017-12-12 02:25:37 DEBUG Main:20 - divide method invoked; 2 / 2
+2017-12-12 02:25:37 INFO  Main:12 - result: 1
+2017-12-12 02:56:03 INFO  Main:11 - This is how you configure Log4J with SLF4J
